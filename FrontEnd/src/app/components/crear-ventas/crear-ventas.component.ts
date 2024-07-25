@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './crear-ventas.component.css'
 })
 export class CrearVentasComponent {
+  guardar(){
 
+  }
+  cancelar(){
+    
+  }
 }

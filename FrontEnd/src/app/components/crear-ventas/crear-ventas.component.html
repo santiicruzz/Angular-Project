@@ -1,1 +1,74 @@
-<p>crear-ventas works!</p>
+<div class="form">
+    <h3>Registrar Venta</h3>
+    <div>
+        <form action="">
+            <div class="flexContainer">
+               <div class="flexItem">
+                <p>Tipo de cédula:</p>
+               </div>
+               <div class="flexItem">
+                    <select name="TipoCedula">
+                        <option id="cedulaExtranjeria" value="">Cédula de Extranjería</option>
+                        <option id="CedulaCiudadania" value="">Cédula de Ciudadanía</option>
+                        <option id="TarjetaIdentidad" value="">Tarjeta de Identidad</option>
+                        <option id="Pasaporte" value="">Pasaporte</option>
+                    </select>
+               </div>                
+            </div>
+            <div class="flexContainer">
+                <div class="flexItem">
+                    <p>Número de cédula:</p>
+                </div>
+                <div class="flexItem">
+                    <input type="text" >
+                </div>                
+            </div>
+            <div class="flexContainer">
+                <div class="flexItem">
+                    <p>Nombre:</p>    
+                </div>
+                <div class="flexItem">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="flexContainer">
+                <div class="flexItem">
+                    <p>Apellido:</p>
+                </div>
+                <div class="flexItem">
+                    <input type="text">
+                </div>               
+            </div>
+            <div class="flexContainer">
+                <div class="flexItem">
+                    <p>Correo:</p>
+                </div>
+                <div class="flexItem">
+                    <input type="text">
+                </div>                
+            </div>
+            <div class="flexContainer">
+                <div class="flexItem">
+                    <p>Tipo de Pago</p>
+                </div>
+                <div class="flexItem">
+                    <select name="" id="">
+                        <option value="">Tarjeta de crédito</option>
+                        <option value="">Tarjeta Debito</option>
+                        <option value="">PSE</option>
+                        <option value="">Nequi</option>
+                        <option value="">Daviplata</option>
+                    </select>
+                </div>                
+            </div>
+            <div class="flexContainer">
+                <div class="flexItem">
+                    <button (click)="guardar()">Guardar</button>
+                </div>
+                <div class="flexItem">
+                    <button (click)="cancelar()">Cancelar</button>
+                </div>                
+            </div>
+        </form>
+    </div>
+</div>

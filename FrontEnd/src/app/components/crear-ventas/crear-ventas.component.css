@@ -1,0 +1,16 @@
+.form{
+    width: 30%
+}
+.flexContainer{
+
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    align-items: center;
+    justify-content: first baseline;
+}
+.flexItem{
+    padding: 0.3%;
+    flex-grow: 1;
+    width: 10%;
+ }
