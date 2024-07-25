@@ -1,0 +1,30 @@
+<div class="centrar">
+    <h1 class="centrar">Mi Primer Proyecto</h1>
+    <h2>Motos Vendidas</h2>
+    <table class="centrar">
+        <thead>
+            <tr>
+                <th id="marca">Marca</th>
+                <th id="cilindraje">Cilindraje</th>
+                <th id="modelo">Modelo</th>
+                <th id="precio">Precio</th>
+                <th id="metodoPago">Método de Pago</th>
+                <th id="fechaVenta">Fecha Venta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let moto of tablaMoto">
+
+                <td>{{moto.marca}}</td>
+                <td>{{moto.cilindraje}}</td>
+                <td>{{moto.modelo}}</td>
+                <td>{{moto.precio}}</td>
+                <td>{{moto.MetodoPago}}</td>
+                <td>{{moto.FechaVenta}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <button href="/" class="boton" (click)="navegar()">Crear Registro</button>
+</div>
