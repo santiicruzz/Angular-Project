@@ -34,7 +34,6 @@ namespace Backend.Controllers
             {
                 var venta = new Venta
                 {
-
                     Fecha = ventaObj.Fecha,
                     TipoPago = ventaObj.TipoPago,
                     Precio = ventaObj.Precio,
