@@ -1,5 +1,7 @@
 ﻿using Backend.Data;
+using Backend.Data.SP;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Controllers
 {
@@ -14,16 +16,26 @@ namespace Backend.Controllers
         }
         // GET: api/<VentasController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<SpVentasListar> GetVentas()
         {
-            return new string[] { "value1", "value2" };
+            var listadoVenta = _motosContext.SpVentaListar();
+            if (listadoVenta != null) 
+            {
+                return listadoVenta.FirstOrDefault();
+            }
+            return new SpVentasListar();
         }
 
         // GET api/<VentasController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IActionResult> GetVentaById (int id)
         {
-            return "caca";
+            var venta = await _motosContext.Ventas.FindAsync(id);
+            if (venta != null)
+            {
+                return Ok(venta);
+            }
+            return NotFound();
         }
 
         // POST api/<VentasController>
@@ -54,15 +66,50 @@ namespace Backend.Controllers
         }
 
         // PUT api/<VentasController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public async Task<IActionResult> PutVenta([FromBody] Venta ventaObj)
         {
+            var venta = await _motosContext.Ventas.FindAsync(ventaObj.IdVenta);
+            if (venta == null)
+            {
+                return BadRequest();
+            }
+            venta.Fecha = ventaObj.Fecha;
+            venta.TipoPago = ventaObj.TipoPago;
+            venta.Precio = ventaObj.Precio;
+            venta.IdMoto = ventaObj.IdMoto;
+            venta.IdVendedor = ventaObj.IdVendedor;
+            venta.NombreVendedor = ventaObj.NombreVendedor;
+            venta.ApellidoVendedor = ventaObj.ApellidoVendedor;
+            venta.TipoDocumento = ventaObj.TipoDocumento;
+            venta.NumeroDocumento = ventaObj.NumeroDocumento;
+            venta.NombreCliente = ventaObj.NombreCliente;
+            venta.ApellidoCliente = ventaObj.ApellidoCliente;
+            venta.CorreoCliente = ventaObj.CorreoCliente;
+           
+            _motosContext.Entry(venta).State=EntityState.Modified;
+            await _motosContext.SaveChangesAsync();
+            return Ok(new { mensaje = "Venta actualizada"});
+        
         }
 
         // DELETE api/<VentasController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> DeleteVenta(int id)
         {
+            try
+            {
+                var venta = await _motosContext.Ventas.FindAsync(id);
+                if (venta == null)
+                    return BadRequest();
+                _motosContext.Ventas.Remove(venta);
+                await _motosContext.SaveChangesAsync();
+                return Ok(new { mensaje = "Venta eliminada" });
+            }
+            catch(Exception ex) 
+            {
+                  return BadRequest(ex.ToString());
+            }
         }
     }
 }

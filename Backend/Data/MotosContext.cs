@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Backend.Data.SP;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Data;
@@ -22,6 +23,11 @@ public partial class MotosContext : DbContext
     public virtual DbSet<TipoPago> TipoPagos { get; set; }
 
     public virtual DbSet<Venta> Ventas { get; set; }
+    public virtual DbSet<SpVentasListar> spVentasListar { get; set; }
+    public IEnumerable<SpVentasListar> SpVentaListar()
+    {
+        return spVentasListar.FromSqlInterpolated($"spGenerarListado").ToArray();
+    }
 
     //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -132,6 +138,7 @@ public partial class MotosContext : DbContext
                 .HasConstraintName("FK__ventas__idMoto__70DDC3D8");
         });
 
+        modelBuilder.Entity<SpVentasListar>().HasNoKey();
         OnModelCreatingPartial(modelBuilder);
     }
 

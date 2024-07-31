@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\data\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|solutionrelative:data\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\controllers\\tipopagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|solutionrelative:controllers\\tipopagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\controllers\\tipodocumentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|solutionrelative:controllers\\tipodocumentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\controllers\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|solutionrelative:controllers\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|solutionrelative:controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\data\\motoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|solutionrelative:data\\motoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\data\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|solutionrelative:data\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\data\\sp\\spventaslistar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|solutionrelative:data\\sp\\spventaslistar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53B3E7A7-3648-4F6B-97E8-FCFB43764B81}|Backend.csproj|c:\\users\\santi\\documents\\proyectos angular\\miproyectoangular\\angular-project\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,95 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "SpVentasListar.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Data\\SP\\SpVentasListar.cs",
+              "RelativeDocumentMoniker": "Data\\SP\\SpVentasListar.cs",
+              "ToolTip": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Data\\SP\\SpVentasListar.cs",
+              "RelativeToolTip": "Data\\SP\\SpVentasListar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:50:08.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Moto.cs",
               "DocumentMoniker": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Data\\Moto.cs",
               "RelativeDocumentMoniker": "Data\\Moto.cs",
               "ToolTip": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Data\\Moto.cs",
               "RelativeToolTip": "Data\\Moto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T00:48:04.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MotoController.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Controllers\\MotoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MotoController.cs",
-              "ToolTip": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Controllers\\MotoController.cs",
-              "RelativeToolTip": "Controllers\\MotoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T00:43:31.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TipoDocumentoController.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Controllers\\TipoDocumentoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TipoDocumentoController.cs",
-              "ToolTip": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Controllers\\TipoDocumentoController.cs",
-              "RelativeToolTip": "Controllers\\TipoDocumentoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T00:32:34.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TipoPagoController.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Controllers\\TipoPagoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TipoPagoController.cs",
-              "ToolTip": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Controllers\\TipoPagoController.cs",
-              "RelativeToolTip": "Controllers\\TipoPagoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T23:49:12.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "VentasController.cs",
               "DocumentMoniker": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Controllers\\VentasController.cs",
               "RelativeDocumentMoniker": "Controllers\\VentasController.cs",
               "ToolTip": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Controllers\\VentasController.cs",
               "RelativeToolTip": "Controllers\\VentasController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwDUAAAAJAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwFYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T19:16:26.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T21:12:20.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MotosContext.cs",
               "DocumentMoniker": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Data\\MotosContext.cs",
               "RelativeDocumentMoniker": "Data\\MotosContext.cs",
               "ToolTip": "C:\\Users\\santi\\Documents\\Proyectos Angular\\MiProyectoAngular\\Angular-Project\\Backend\\Data\\MotosContext.cs",
               "RelativeToolTip": "Data\\MotosContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAVAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAArwBgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T19:13:07.086Z",
               "EditorCaption": ""

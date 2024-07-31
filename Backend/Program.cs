@@ -1,6 +1,5 @@
-using Backend.Data;
 using Microsoft.EntityFrameworkCore;
-
+using Backend.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
