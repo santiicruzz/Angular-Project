@@ -22,11 +22,11 @@ public partial class MotosContext : DbContext
 
     public virtual DbSet<TipoPago> TipoPagos { get; set; }
 
-    public virtual DbSet<Venta> Ventas { get; set; }
+    public virtual DbSet<Venta>     Ventas { get; set; }
     public virtual DbSet<SpVentasListar> spVentasListar { get; set; }
-    public IEnumerable<SpVentasListar> SpVentaListar()
+    async public Task<IEnumerable<SpVentasListar>> SpVentaListar()
     {
-        return spVentasListar.FromSqlInterpolated($"spGenerarListado").ToArray();
+        return await spVentasListar.FromSqlInterpolated($"spGenerarListado").ToListAsync();
     }
 
     //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

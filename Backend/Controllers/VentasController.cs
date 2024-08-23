@@ -16,15 +16,12 @@ namespace Backend.Controllers
         }
         // GET: api/<VentasController>
         [HttpGet]
-        public async Task<SpVentasListar> GetVentas()
+        public async Task<IEnumerable<SpVentasListar>> GetVentas()
         {
-            var listadoVenta = _motosContext.SpVentaListar();
-            if (listadoVenta != null) 
-            {
-                return listadoVenta.FirstOrDefault();
-            }
-            return new SpVentasListar();
+            IEnumerable<SpVentasListar> listadoVenta = await _motosContext.SpVentaListar();
+            return listadoVenta;
         }
+
 
         // GET api/<VentasController>/5
         [HttpGet("{id}")]
